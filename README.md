@@ -46,6 +46,8 @@ Conceptual schema (replace these placeholders with real IDs/minutes):
 
 Probabilities reflect data and model uncertainty, not certainty about injuries or lineups. A probability of 0.65 means a model estimate of a 65% chance, not a guarantee that 65% of similar forecasts are correct; inspect held-out calibration bins.
 
+A verified example run for October 24, 2026 is saved in [`reports/slate_2026-10-24.json`](reports/slate_2026-10-24.json) and CSV form. It contains all eight scheduled games, both win probabilities, captured roster membership and estimated minutes. These forecasts use completed history through October 23 and do not incorporate injury clearance.
+
 ## Model and features
 
 Two fixed candidates are compared on a chronological validation window: regularized logistic regression and histogram gradient-boosted decision trees. The better validation log loss wins. A logistic (Platt) calibration layer is fit on a later, disjoint window. See [MODEL_CARD.md](MODEL_CARD.md) for measured results and `reports/metrics.json` for the full metrics. A neural network is unnecessary for this initial few-thousand-game tabular dataset.
