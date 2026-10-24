@@ -1,0 +1,57 @@
+[
+  {
+    "season": "2022-23",
+    "games": 1320,
+    "first": "2022-10-18",
+    "last": "2023-06-12",
+    "player_rows": 34033,
+    "regular_games": 1230,
+    "postseason_games": 84,
+    "play_in_games": 6,
+    "excluded_all_star_exhibitions": 1
+  },
+  {
+    "season": "2023-24",
+    "games": 1319,
+    "first": "2023-10-24",
+    "last": "2024-06-17",
+    "player_rows": 35004,
+    "regular_games": 1231,
+    "postseason_games": 82,
+    "play_in_games": 6,
+    "excluded_all_star_exhibitions": 1
+  },
+  {
+    "season": "2024-25",
+    "games": 1321,
+    "first": "2024-10-22",
+    "last": "2025-06-22",
+    "player_rows": 35198,
+    "regular_games": 1231,
+    "postseason_games": 84,
+    "play_in_games": 6,
+    "excluded_all_star_exhibitions": 3
+  },
+  {
+    "season": "2025-26",
+    "games": 1322,
+    "first": "2025-10-21",
+    "last": "2026-06-13",
+    "player_rows": 34810,
+    "regular_games": 1231,
+    "postseason_games": 85,
+    "play_in_games": 6,
+    "excluded_all_star_exhibitions": 4
+  },
+  {
+    "season": "2026-27",
+    "games": 28,
+    "first": "2026-10-20",
+    "last": "2026-10-23",
+    "player_rows": 776,
+    "regular_games": 28,
+    "postseason_games": 0,
+    "play_in_games": 0,
+    "excluded_all_star_exhibitions": 0
+  }
+]

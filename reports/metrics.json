@@ -1,0 +1,588 @@
+{
+  "model": "logistic_regression",
+  "validation_log_loss": {
+    "logistic_regression": 0.6220076191980336,
+    "hist_gradient_boosting": 0.6406658063850887
+  },
+  "fit_games": 2436,
+  "calibration_games": 203,
+  "protocol": "Frozen model; rolling features updated after each completed game day; no holdout refitting.",
+  "seasons": {
+    "2024-25": {
+      "model": {
+        "games": 1321,
+        "accuracy": 0.6767600302800908,
+        "log_loss": 0.6038999621421898,
+        "brier": 0.2084959256886073,
+        "auc": 0.7333957293399889,
+        "calibration": [
+          {
+            "low": 0.0,
+            "count": 2,
+            "mean_probability": 0.09004308325962226,
+            "observed_home_win_rate": 0.0
+          },
+          {
+            "low": 0.1,
+            "count": 25,
+            "mean_probability": 0.1674849355257181,
+            "observed_home_win_rate": 0.04
+          },
+          {
+            "low": 0.2,
+            "count": 88,
+            "mean_probability": 0.25894813398846717,
+            "observed_home_win_rate": 0.2159090909090909
+          },
+          {
+            "low": 0.3,
+            "count": 158,
+            "mean_probability": 0.34951425785774226,
+            "observed_home_win_rate": 0.3670886075949367
+          },
+          {
+            "low": 0.4,
+            "count": 217,
+            "mean_probability": 0.4550616758314305,
+            "observed_home_win_rate": 0.3686635944700461
+          },
+          {
+            "low": 0.5,
+            "count": 237,
+            "mean_probability": 0.549000078425078,
+            "observed_home_win_rate": 0.5358649789029536
+          },
+          {
+            "low": 0.6,
+            "count": 269,
+            "mean_probability": 0.6484626691847154,
+            "observed_home_win_rate": 0.6468401486988847
+          },
+          {
+            "low": 0.7,
+            "count": 213,
+            "mean_probability": 0.7449838667122183,
+            "observed_home_win_rate": 0.7699530516431925
+          },
+          {
+            "low": 0.8,
+            "count": 100,
+            "mean_probability": 0.8432351454539561,
+            "observed_home_win_rate": 0.86
+          },
+          {
+            "low": 0.9,
+            "count": 12,
+            "mean_probability": 0.9138637065558334,
+            "observed_home_win_rate": 0.9166666666666666
+          }
+        ]
+      },
+      "elo": {
+        "games": 1321,
+        "accuracy": 0.6502649507948524,
+        "log_loss": 0.6196692943752845,
+        "brier": 0.21580679183357693,
+        "auc": 0.7109909410242189,
+        "calibration": [
+          {
+            "low": 0.0,
+            "count": 1,
+            "mean_probability": 0.08860762291709078,
+            "observed_home_win_rate": 0.0
+          },
+          {
+            "low": 0.1,
+            "count": 21,
+            "mean_probability": 0.15471161590628224,
+            "observed_home_win_rate": 0.09523809523809523
+          },
+          {
+            "low": 0.2,
+            "count": 80,
+            "mean_probability": 0.25864016687958247,
+            "observed_home_win_rate": 0.2
+          },
+          {
+            "low": 0.3,
+            "count": 148,
+            "mean_probability": 0.35047299483226113,
+            "observed_home_win_rate": 0.38513513513513514
+          },
+          {
+            "low": 0.4,
+            "count": 179,
+            "mean_probability": 0.4549600008821192,
+            "observed_home_win_rate": 0.39106145251396646
+          },
+          {
+            "low": 0.5,
+            "count": 230,
+            "mean_probability": 0.5513767909003833,
+            "observed_home_win_rate": 0.4826086956521739
+          },
+          {
+            "low": 0.6,
+            "count": 276,
+            "mean_probability": 0.6459062868253067,
+            "observed_home_win_rate": 0.6231884057971014
+          },
+          {
+            "low": 0.7,
+            "count": 223,
+            "mean_probability": 0.7491119420981179,
+            "observed_home_win_rate": 0.6816143497757847
+          },
+          {
+            "low": 0.8,
+            "count": 138,
+            "mean_probability": 0.8392134343867987,
+            "observed_home_win_rate": 0.8478260869565217
+          },
+          {
+            "low": 0.9,
+            "count": 25,
+            "mean_probability": 0.9186676723033199,
+            "observed_home_win_rate": 0.92
+          }
+        ]
+      },
+      "home_baseline": {
+        "games": 1321,
+        "accuracy": 0.5450416351249053,
+        "log_loss": 0.6897537684386797,
+        "brier": 0.24830164555231413,
+        "auc": 0.5,
+        "calibration": [
+          {
+            "low": 0.5,
+            "count": 1321,
+            "mean_probability": 0.5632183908045977,
+            "observed_home_win_rate": 0.5450416351249053
+          }
+        ]
+      },
+      "regular_season": {
+        "games": 1231,
+        "accuracy": 0.6807473598700243,
+        "log_loss": 0.6011781874552788,
+        "brier": 0.20727093904950103,
+        "auc": 0.7372745213815702,
+        "calibration": [
+          {
+            "low": 0.0,
+            "count": 2,
+            "mean_probability": 0.09004308325962226,
+            "observed_home_win_rate": 0.0
+          },
+          {
+            "low": 0.1,
+            "count": 25,
+            "mean_probability": 0.1674849355257181,
+            "observed_home_win_rate": 0.04
+          },
+          {
+            "low": 0.2,
+            "count": 87,
+            "mean_probability": 0.25848683119598853,
+            "observed_home_win_rate": 0.21839080459770116
+          },
+          {
+            "low": 0.3,
+            "count": 147,
+            "mean_probability": 0.3481837433913542,
+            "observed_home_win_rate": 0.35374149659863946
+          },
+          {
+            "low": 0.4,
+            "count": 198,
+            "mean_probability": 0.4546470131080568,
+            "observed_home_win_rate": 0.3686868686868687
+          },
+          {
+            "low": 0.5,
+            "count": 218,
+            "mean_probability": 0.5489427407552144,
+            "observed_home_win_rate": 0.5504587155963303
+          },
+          {
+            "low": 0.6,
+            "count": 242,
+            "mean_probability": 0.6492203079571603,
+            "observed_home_win_rate": 0.6363636363636364
+          },
+          {
+            "low": 0.7,
+            "count": 200,
+            "mean_probability": 0.7463237608412021,
+            "observed_home_win_rate": 0.765
+          },
+          {
+            "low": 0.8,
+            "count": 100,
+            "mean_probability": 0.8432351454539561,
+            "observed_home_win_rate": 0.86
+          },
+          {
+            "low": 0.9,
+            "count": 12,
+            "mean_probability": 0.9138637065558334,
+            "observed_home_win_rate": 0.9166666666666666
+          }
+        ]
+      },
+      "postseason": {
+        "games": 84,
+        "accuracy": 0.6309523809523809,
+        "log_loss": 0.6410709763128236,
+        "brier": 0.22520655715479143,
+        "auc": 0.6666666666666669,
+        "calibration": [
+          {
+            "low": 0.2,
+            "count": 1,
+            "mean_probability": 0.29908147693410814,
+            "observed_home_win_rate": 0.0
+          },
+          {
+            "low": 0.3,
+            "count": 11,
+            "mean_probability": 0.3672947693631107,
+            "observed_home_win_rate": 0.5454545454545454
+          },
+          {
+            "low": 0.4,
+            "count": 19,
+            "mean_probability": 0.45938289789606135,
+            "observed_home_win_rate": 0.3684210526315789
+          },
+          {
+            "low": 0.5,
+            "count": 15,
+            "mean_probability": 0.546930234193953,
+            "observed_home_win_rate": 0.4
+          },
+          {
+            "low": 0.6,
+            "count": 26,
+            "mean_probability": 0.6427685560026182,
+            "observed_home_win_rate": 0.7307692307692307
+          },
+          {
+            "low": 0.7,
+            "count": 12,
+            "mean_probability": 0.7262834789788454,
+            "observed_home_win_rate": 0.8333333333333334
+          }
+        ]
+      },
+      "play_in": {
+        "games": 6,
+        "accuracy": 0.5,
+        "log_loss": 0.6419232036845398,
+        "brier": 0.2258735106186702,
+        "auc": 0.888888888888889,
+        "calibration": [
+          {
+            "low": 0.5,
+            "count": 4,
+            "mean_probability": 0.559886897299358,
+            "observed_home_win_rate": 0.25
+          },
+          {
+            "low": 0.6,
+            "count": 1,
+            "mean_probability": 0.6131610289875702,
+            "observed_home_win_rate": 1.0
+          },
+          {
+            "low": 0.7,
+            "count": 1,
+            "mean_probability": 0.7014096937159411,
+            "observed_home_win_rate": 1.0
+          }
+        ]
+      },
+      "accuracy_95pct_day_bootstrap": [
+        0.6507125622205349,
+        0.7020875416469492
+      ]
+    },
+    "2025-26": {
+      "model": {
+        "games": 1322,
+        "accuracy": 0.6739788199697428,
+        "log_loss": 0.6056119293008948,
+        "brier": 0.20890494498487636,
+        "auc": 0.7258406087230531,
+        "calibration": [
+          {
+            "low": 0.1,
+            "count": 30,
+            "mean_probability": 0.168730184274393,
+            "observed_home_win_rate": 0.06666666666666667
+          },
+          {
+            "low": 0.2,
+            "count": 90,
+            "mean_probability": 0.25721567898956554,
+            "observed_home_win_rate": 0.2111111111111111
+          },
+          {
+            "low": 0.3,
+            "count": 156,
+            "mean_probability": 0.35714437759199996,
+            "observed_home_win_rate": 0.3076923076923077
+          },
+          {
+            "low": 0.4,
+            "count": 217,
+            "mean_probability": 0.4528201577832567,
+            "observed_home_win_rate": 0.45622119815668205
+          },
+          {
+            "low": 0.5,
+            "count": 243,
+            "mean_probability": 0.5485669054758187,
+            "observed_home_win_rate": 0.5637860082304527
+          },
+          {
+            "low": 0.6,
+            "count": 248,
+            "mean_probability": 0.6482337283111813,
+            "observed_home_win_rate": 0.6733870967741935
+          },
+          {
+            "low": 0.7,
+            "count": 208,
+            "mean_probability": 0.7428197259617152,
+            "observed_home_win_rate": 0.7259615384615384
+          },
+          {
+            "low": 0.8,
+            "count": 119,
+            "mean_probability": 0.8391940080383614,
+            "observed_home_win_rate": 0.8487394957983193
+          },
+          {
+            "low": 0.9,
+            "count": 11,
+            "mean_probability": 0.9185149150713477,
+            "observed_home_win_rate": 0.9090909090909091
+          }
+        ]
+      },
+      "elo": {
+        "games": 1322,
+        "accuracy": 0.670196671709531,
+        "log_loss": 0.6129485526067397,
+        "brier": 0.211868165387206,
+        "auc": 0.7176407347680216,
+        "calibration": [
+          {
+            "low": 0.0,
+            "count": 1,
+            "mean_probability": 0.09681685940789692,
+            "observed_home_win_rate": 0.0
+          },
+          {
+            "low": 0.1,
+            "count": 14,
+            "mean_probability": 0.16276121764437887,
+            "observed_home_win_rate": 0.0
+          },
+          {
+            "low": 0.2,
+            "count": 85,
+            "mean_probability": 0.25511812791900373,
+            "observed_home_win_rate": 0.15294117647058825
+          },
+          {
+            "low": 0.3,
+            "count": 131,
+            "mean_probability": 0.35602931115110326,
+            "observed_home_win_rate": 0.3435114503816794
+          },
+          {
+            "low": 0.4,
+            "count": 217,
+            "mean_probability": 0.4497793792348805,
+            "observed_home_win_rate": 0.4147465437788018
+          },
+          {
+            "low": 0.5,
+            "count": 210,
+            "mean_probability": 0.5494175537898899,
+            "observed_home_win_rate": 0.5333333333333333
+          },
+          {
+            "low": 0.6,
+            "count": 257,
+            "mean_probability": 0.6492902185120558,
+            "observed_home_win_rate": 0.6381322957198443
+          },
+          {
+            "low": 0.7,
+            "count": 245,
+            "mean_probability": 0.7451577440007726,
+            "observed_home_win_rate": 0.7387755102040816
+          },
+          {
+            "low": 0.8,
+            "count": 140,
+            "mean_probability": 0.8408587076525921,
+            "observed_home_win_rate": 0.7857142857142857
+          },
+          {
+            "low": 0.9,
+            "count": 22,
+            "mean_probability": 0.9142207898007298,
+            "observed_home_win_rate": 0.8636363636363636
+          }
+        ]
+      },
+      "home_baseline": {
+        "games": 1322,
+        "accuracy": 0.5552193645990923,
+        "log_loss": 0.687166242155102,
+        "brier": 0.2470148061935089,
+        "auc": 0.5,
+        "calibration": [
+          {
+            "low": 0.5,
+            "count": 1322,
+            "mean_probability": 0.5632183908045977,
+            "observed_home_win_rate": 0.5552193645990923
+          }
+        ]
+      },
+      "regular_season": {
+        "games": 1231,
+        "accuracy": 0.6750609260763607,
+        "log_loss": 0.6027591039297319,
+        "brier": 0.20766092838363034,
+        "auc": 0.7300472368575734,
+        "calibration": [
+          {
+            "low": 0.1,
+            "count": 30,
+            "mean_probability": 0.168730184274393,
+            "observed_home_win_rate": 0.06666666666666667
+          },
+          {
+            "low": 0.2,
+            "count": 90,
+            "mean_probability": 0.25721567898956554,
+            "observed_home_win_rate": 0.2111111111111111
+          },
+          {
+            "low": 0.3,
+            "count": 142,
+            "mean_probability": 0.35674142087895794,
+            "observed_home_win_rate": 0.323943661971831
+          },
+          {
+            "low": 0.4,
+            "count": 206,
+            "mean_probability": 0.45275987326487116,
+            "observed_home_win_rate": 0.45145631067961167
+          },
+          {
+            "low": 0.5,
+            "count": 210,
+            "mean_probability": 0.5492153867546785,
+            "observed_home_win_rate": 0.5571428571428572
+          },
+          {
+            "low": 0.6,
+            "count": 230,
+            "mean_probability": 0.6483133727196737,
+            "observed_home_win_rate": 0.6739130434782609
+          },
+          {
+            "low": 0.7,
+            "count": 193,
+            "mean_probability": 0.7433319804071594,
+            "observed_home_win_rate": 0.7253886010362695
+          },
+          {
+            "low": 0.8,
+            "count": 119,
+            "mean_probability": 0.8391940080383614,
+            "observed_home_win_rate": 0.8487394957983193
+          },
+          {
+            "low": 0.9,
+            "count": 11,
+            "mean_probability": 0.9185149150713477,
+            "observed_home_win_rate": 0.9090909090909091
+          }
+        ]
+      },
+      "postseason": {
+        "games": 85,
+        "accuracy": 0.6588235294117647,
+        "log_loss": 0.6413631351092021,
+        "brier": 0.22441868459259345,
+        "auc": 0.667973124300112,
+        "calibration": [
+          {
+            "low": 0.3,
+            "count": 14,
+            "mean_probability": 0.3612315099671413,
+            "observed_home_win_rate": 0.14285714285714285
+          },
+          {
+            "low": 0.4,
+            "count": 11,
+            "mean_probability": 0.45394912240029456,
+            "observed_home_win_rate": 0.5454545454545454
+          },
+          {
+            "low": 0.5,
+            "count": 30,
+            "mean_probability": 0.5461703232041579,
+            "observed_home_win_rate": 0.6
+          },
+          {
+            "low": 0.6,
+            "count": 15,
+            "mean_probability": 0.6490053327163089,
+            "observed_home_win_rate": 0.6666666666666666
+          },
+          {
+            "low": 0.7,
+            "count": 15,
+            "mean_probability": 0.7362287187636659,
+            "observed_home_win_rate": 0.7333333333333333
+          }
+        ]
+      },
+      "play_in": {
+        "games": 6,
+        "accuracy": 0.6666666666666666,
+        "log_loss": 0.6844411856667793,
+        "brier": 0.24435770656452474,
+        "auc": 0.375,
+        "calibration": [
+          {
+            "low": 0.5,
+            "count": 3,
+            "mean_probability": 0.5271390386722526,
+            "observed_home_win_rate": 0.6666666666666666
+          },
+          {
+            "low": 0.6,
+            "count": 3,
+            "mean_probability": 0.6382696349677891,
+            "observed_home_win_rate": 0.6666666666666666
+          }
+        ]
+      },
+      "accuracy_95pct_day_bootstrap": [
+        0.6491834209904634,
+        0.6983771032391253
+      ]
+    }
+  }
+}

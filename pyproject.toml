@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nba-win-predictor"
+version = "0.1.0"
+description = "Pregame NBA win probabilities with chronological season holdouts"
+requires-python = ">=3.11"
+dependencies = ["pandas>=2.2,<4", "numpy>=2,<3", "pyarrow>=18", "scikit-learn>=1.6,<2", "requests>=2.32", "joblib>=1.4"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+nba-predict = "nba_predictor.cli:main"
+nba-slate = "nba_predictor.slate:main"
+
+[tool.setuptools.packages.find]
+include = ["nba_predictor*"]

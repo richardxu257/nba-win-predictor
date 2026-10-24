@@ -1,0 +1,52 @@
+{
+  "player_box_2023.parquet": {
+    "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_nba_player_boxscores/player_box_2023.parquet",
+    "sha256": "968d835cd04b10533c5b5af8c0e41bf0154a73782e9446c76f765109223e8679",
+    "observed_at": "2026-10-24T15:19:01.877938+00:00"
+  },
+  "player_box_2024.parquet": {
+    "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_nba_player_boxscores/player_box_2024.parquet",
+    "sha256": "1e500a538ec45ddbcb58d9789b5494f8db4f25658eafd01d90f2d09600921665",
+    "observed_at": "2026-10-24T15:19:01.881126+00:00"
+  },
+  "player_box_2025.parquet": {
+    "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_nba_player_boxscores/player_box_2025.parquet",
+    "sha256": "e89f7fbc1124092c715b722e6d72d9dd1b9d28776ca6888b508fd2831cd705e2",
+    "observed_at": "2026-10-24T15:19:01.883551+00:00"
+  },
+  "player_box_2026.parquet": {
+    "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_nba_player_boxscores/player_box_2026.parquet",
+    "sha256": "29a29dc9efd055a93e069a0382ac830d98a13274bee655beba69d95cff099713",
+    "observed_at": "2026-10-24T15:19:01.885872+00:00"
+  },
+  "player_box_2027.parquet": {
+    "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_nba_player_boxscores/player_box_2027.parquet",
+    "sha256": "decf09223dea530cdf8fdc10acfc1742e58d8612ab6551138e208fbd68e87513",
+    "observed_at": "2026-10-24T15:19:01.886554+00:00"
+  },
+  "team_box_2023.parquet": {
+    "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_nba_team_boxscores/team_box_2023.parquet",
+    "sha256": "b86bb087fe57eeeacead4e27965a20d1e67fdb39a3ee2ca36294a0b7d014e9b6",
+    "observed_at": "2026-10-24T15:19:01.887592+00:00"
+  },
+  "team_box_2024.parquet": {
+    "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_nba_team_boxscores/team_box_2024.parquet",
+    "sha256": "5e4d1b7a2ccc287f212f65888dcd674e370adec8a0e32d7ae0825eecacaaa8a9",
+    "observed_at": "2026-10-24T15:19:01.888543+00:00"
+  },
+  "team_box_2025.parquet": {
+    "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_nba_team_boxscores/team_box_2025.parquet",
+    "sha256": "f735bf3b743618e50987f3e3e296734e1dba43c450a21af848d7c34f23bf2aee",
+    "observed_at": "2026-10-24T15:19:01.889503+00:00"
+  },
+  "team_box_2026.parquet": {
+    "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_nba_team_boxscores/team_box_2026.parquet",
+    "sha256": "db846dfb39b0f75eee50ad91b1b5b7a7a62dd31d3ec0bb066a0a3bb08e366f7e",
+    "observed_at": "2026-10-24T15:19:01.890583+00:00"
+  },
+  "team_box_2027.parquet": {
+    "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_nba_team_boxscores/team_box_2027.parquet",
+    "sha256": "138742c750e4f12916b6084adb90f8708bc5556249058101598e60638bfd324f",
+    "observed_at": "2026-10-24T15:19:01.891219+00:00"
+  }
+}
