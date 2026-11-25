@@ -1,0 +1,257 @@
+{
+  "season": "2026-27",
+  "as_of_central": "2026-11-24T21:50:38-06:00",
+  "first_game": "2026-10-20",
+  "last_game": "2026-11-24",
+  "model_name": "logistic_regression",
+  "trained_through": "2024-06-30",
+  "model_sha256": "574c3ee33260d597d4ceb845df2a645d4f004efd0ec5d70ac4bd0775128a1069",
+  "games_from_boxscore_archive": 258,
+  "games_scored_using_espn_final_score_only": [
+    401909314,
+    401909315
+  ],
+  "archive_sha256": {
+    "team_box_2027.parquet": "a96a9bdda2fbbbd05d77eecb78b4969275dcb7afb15f09688c82ccfb5043e825",
+    "player_box_2026.parquet": "29a29dc9efd055a93e069a0382ac830d98a13274bee655beba69d95cff099713",
+    "team_box_2026.parquet": "db846dfb39b0f75eee50ad91b1b5b7a7a62dd31d3ec0bb066a0a3bb08e366f7e",
+    "player_box_2027.parquet": "a6ecbbf6a298581774de31e84f0fc388cd958f9eddc24c38c04039d08e3630f4",
+    "player_box_2025.parquet": "e89f7fbc1124092c715b722e6d72d9dd1b9d28776ca6888b508fd2831cd705e2",
+    "team_box_2024.parquet": "5e4d1b7a2ccc287f212f65888dcd674e370adec8a0e32d7ae0825eecacaaa8a9",
+    "player_box_2024.parquet": "1e500a538ec45ddbcb58d9789b5494f8db4f25658eafd01d90f2d09600921665",
+    "team_box_2025.parquet": "f735bf3b743618e50987f3e3e296734e1dba43c450a21af848d7c34f23bf2aee",
+    "team_box_2023.parquet": "b86bb087fe57eeeacead4e27965a20d1e67fdb39a3ee2ca36294a0b7d014e9b6",
+    "player_box_2023.parquet": "968d835cd04b10533c5b5af8c0e41bf0154a73782e9446c76f765109223e8679"
+  },
+  "november_24_status": [
+    {
+      "id": "401909314",
+      "name": "Detroit Pistons at Orlando Magic",
+      "status": "STATUS_FINAL"
+    },
+    {
+      "id": "401909315",
+      "name": "Boston Celtics at Washington Wizards",
+      "status": "STATUS_FINAL"
+    },
+    {
+      "id": "401909316",
+      "name": "Dallas Mavericks at Denver Nuggets",
+      "status": "STATUS_IN_PROGRESS"
+    }
+  ],
+  "scoreboard_source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard",
+  "home_baseline_probability": 0.5632183908045977,
+  "correct": 174,
+  "accuracy_95pct_day_bootstrap": [
+    0.6079943462897527,
+    0.7272727272727273
+  ],
+  "protocol": "Frozen model, all games on a date forecast using prior-day box scores and estimated rotations.",
+  "model": {
+    "games": 260,
+    "accuracy": 0.6692307692307692,
+    "log_loss": 0.6012026983265816,
+    "brier": 0.2073952685872011,
+    "auc": 0.7391613361762616,
+    "calibration": [
+      {
+        "low": 0.1,
+        "count": 5,
+        "mean_probability": 0.18423740593764557,
+        "observed_home_win_rate": 0.2
+      },
+      {
+        "low": 0.2,
+        "count": 22,
+        "mean_probability": 0.2474839739922239,
+        "observed_home_win_rate": 0.13636363636363635
+      },
+      {
+        "low": 0.3,
+        "count": 39,
+        "mean_probability": 0.351123829951022,
+        "observed_home_win_rate": 0.20512820512820512
+      },
+      {
+        "low": 0.4,
+        "count": 42,
+        "mean_probability": 0.4539052419303995,
+        "observed_home_win_rate": 0.5238095238095238
+      },
+      {
+        "low": 0.5,
+        "count": 37,
+        "mean_probability": 0.556398371061331,
+        "observed_home_win_rate": 0.5945945945945946
+      },
+      {
+        "low": 0.6,
+        "count": 54,
+        "mean_probability": 0.6553735035471233,
+        "observed_home_win_rate": 0.5925925925925926
+      },
+      {
+        "low": 0.7,
+        "count": 33,
+        "mean_probability": 0.743507974991095,
+        "observed_home_win_rate": 0.6666666666666666
+      },
+      {
+        "low": 0.8,
+        "count": 27,
+        "mean_probability": 0.8405274945067963,
+        "observed_home_win_rate": 0.8518518518518519
+      },
+      {
+        "low": 0.9,
+        "count": 1,
+        "mean_probability": 0.917873524426748,
+        "observed_home_win_rate": 1.0
+      }
+    ]
+  },
+  "elo": {
+    "games": 260,
+    "accuracy": 0.676923076923077,
+    "log_loss": 0.6124259969504848,
+    "brier": 0.21248008212530115,
+    "auc": 0.7309286898839139,
+    "calibration": [
+      {
+        "low": 0.1,
+        "count": 5,
+        "mean_probability": 0.1748250380064935,
+        "observed_home_win_rate": 0.2
+      },
+      {
+        "low": 0.2,
+        "count": 26,
+        "mean_probability": 0.2543622475131436,
+        "observed_home_win_rate": 0.19230769230769232
+      },
+      {
+        "low": 0.3,
+        "count": 33,
+        "mean_probability": 0.34978245569901123,
+        "observed_home_win_rate": 0.24242424242424243
+      },
+      {
+        "low": 0.4,
+        "count": 32,
+        "mean_probability": 0.44796451276777827,
+        "observed_home_win_rate": 0.40625
+      },
+      {
+        "low": 0.5,
+        "count": 38,
+        "mean_probability": 0.552743373737648,
+        "observed_home_win_rate": 0.5789473684210527
+      },
+      {
+        "low": 0.6,
+        "count": 46,
+        "mean_probability": 0.6536353816662094,
+        "observed_home_win_rate": 0.5869565217391305
+      },
+      {
+        "low": 0.7,
+        "count": 41,
+        "mean_probability": 0.7527360607849114,
+        "observed_home_win_rate": 0.5609756097560976
+      },
+      {
+        "low": 0.8,
+        "count": 35,
+        "mean_probability": 0.8498953263884952,
+        "observed_home_win_rate": 0.9142857142857143
+      },
+      {
+        "low": 0.9,
+        "count": 4,
+        "mean_probability": 0.9111839202046644,
+        "observed_home_win_rate": 0.75
+      }
+    ]
+  },
+  "home_baseline": {
+    "games": 260,
+    "accuracy": 0.5153846153846153,
+    "log_loss": 0.6972935952993968,
+    "brier": 0.25205138368039676,
+    "auc": 0.5,
+    "calibration": [
+      {
+        "low": 0.5,
+        "count": 260,
+        "mean_probability": 0.5632183908045977,
+        "observed_home_win_rate": 0.5153846153846153
+      }
+    ]
+  },
+  "regular_season_including_cup": {
+    "games": 260,
+    "accuracy": 0.6692307692307692,
+    "log_loss": 0.6012026983265816,
+    "brier": 0.2073952685872011,
+    "auc": 0.7391613361762616,
+    "calibration": [
+      {
+        "low": 0.1,
+        "count": 5,
+        "mean_probability": 0.18423740593764557,
+        "observed_home_win_rate": 0.2
+      },
+      {
+        "low": 0.2,
+        "count": 22,
+        "mean_probability": 0.2474839739922239,
+        "observed_home_win_rate": 0.13636363636363635
+      },
+      {
+        "low": 0.3,
+        "count": 39,
+        "mean_probability": 0.351123829951022,
+        "observed_home_win_rate": 0.20512820512820512
+      },
+      {
+        "low": 0.4,
+        "count": 42,
+        "mean_probability": 0.4539052419303995,
+        "observed_home_win_rate": 0.5238095238095238
+      },
+      {
+        "low": 0.5,
+        "count": 37,
+        "mean_probability": 0.556398371061331,
+        "observed_home_win_rate": 0.5945945945945946
+      },
+      {
+        "low": 0.6,
+        "count": 54,
+        "mean_probability": 0.6553735035471233,
+        "observed_home_win_rate": 0.5925925925925926
+      },
+      {
+        "low": 0.7,
+        "count": 33,
+        "mean_probability": 0.743507974991095,
+        "observed_home_win_rate": 0.6666666666666666
+      },
+      {
+        "low": 0.8,
+        "count": 27,
+        "mean_probability": 0.8405274945067963,
+        "observed_home_win_rate": 0.8518518518518519
+      },
+      {
+        "low": 0.9,
+        "count": 1,
+        "mean_probability": 0.917873524426748,
+        "observed_home_win_rate": 1.0
+      }
+    ]
+  },
+  "postseason_games": 0,
+  "play_in_games": 0
+}
